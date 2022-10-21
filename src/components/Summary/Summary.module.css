@@ -1,0 +1,51 @@
+.tasks {
+  margin-top: 4rem;
+}
+
+.headerTasks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.headerTasks div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.circleTasks {
+  display: inline-block;
+  background: var(--gray-400);
+  text-align: center;
+  padding: 2px;
+  font-size: 12px;
+  border-radius: 999px;
+  color: var(--gray-100);
+}
+
+.createdTasks {
+  width: 20px;
+}
+
+.completedTasks {
+  width: 52px;
+}
+
+.summaryParagraph {
+  font-weight: bold;
+}
+
+.summaryBlue {
+  color: var(--blue-300);
+}
+
+.summaryPurple {
+  color: var(--purple-500);
+}
+
+.separator {
+  margin-top: 1.5rem;
+  border: 1px solid var(--gray-400);
+}
